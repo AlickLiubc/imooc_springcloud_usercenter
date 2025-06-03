@@ -27,4 +27,10 @@ public class TestController {
         return user;
     }
 
+    // ?id=111&wxId=222
+    @GetMapping("/q")
+    public User query(User user) {
+        return user;
+    }
+
 }
