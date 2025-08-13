@@ -1,5 +1,10 @@
 package com.itmuch.usercenter.domain.entity.bonus;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -7,6 +12,10 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Table(name = "bonus_event_log")
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Builder
 public class BonusEventLog {
     /**
      * Id
